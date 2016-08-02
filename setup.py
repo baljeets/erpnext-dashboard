@@ -7,7 +7,7 @@ with open("requirements.txt", "r") as f:
 	install_requires = f.readlines()
 
 setup(
-    name='Dashboard',
+    name='dashboard_app',
     version=version,
     description='Dashboard App',
     author='Frappe',
